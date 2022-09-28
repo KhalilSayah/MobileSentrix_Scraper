@@ -1,0 +1,2 @@
+A_cat = ["'.aicon-iphone'","'.aicon-ipad'","'.aicon-watch'","'.aicon-ipod'","'.macbookmenuloginas.aicon-macbookpro'","'.macbookmenuloginas.aicon-macbookair'","'.mac-board-com aicon-ssds'"]
+print(A_cat[0])
