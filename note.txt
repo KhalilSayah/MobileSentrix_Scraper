@@ -1,0 +1,22 @@
+//////name 
+name = response.css('div.product-name')
+name.css('h1::text').get()
+
+//////price
+price = response.css('span.price::text')[1].get()
+
+//////Description
+des = response.css('div.std').get()
+
+//////SKU 
+response.css('span.label_size::text').get()
+
+///////TAGS
+tag = response.css('ul.product-tags.ms-wraptgs')
+tag.css('a::text').getall()
+
+
+////////images 
+response.css('img.no-sirv-lazy-load::attr(src)').extract()
+bar = response.css('div.MagicToolboxSelectorsContainer')
+bar.css('a::attr(href)').getall()

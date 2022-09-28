@@ -1,0 +1,2 @@
+Number of links crawled :128
+Categories crawled :['Iphone', 'Ipad', 'Watch', 'macbookpro', 'macbookair', 'ssds']
