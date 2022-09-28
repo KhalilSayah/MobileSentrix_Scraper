@@ -1,6 +1,18 @@
-f = open("Apple_start_urls.txt" , "r")
+import json 
 
-list = []
-list = f.read()
+json_file_path = "product.json"
 
-print(len(list))
+links = []
+
+
+with open(json_file_path, 'r') as j:
+     data = json.loads(j.read())
+
+for i in range(len(data)):
+    links.append(data[i]["link"])
+
+print(len(links))
+
+
+
+

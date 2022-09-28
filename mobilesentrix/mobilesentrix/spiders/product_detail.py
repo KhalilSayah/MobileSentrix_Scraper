@@ -1,9 +1,22 @@
 import scrapy
+import json
+
+#Get links of product list
+json_file_path = "product.json"
+
+links = []
+
+
+with open(json_file_path, 'r') as j:
+     data = json.loads(j.read())
+
+for i in range(len(data)):
+    links.append(data[i]["link"])
+
 
 class product_detail (scrapy.Spider):
     name = "product_detail"
-    start_urls = ['https://www.mobilesentrix.ca/oled-assembly-compatible-for-iphone-13-refurbished']
-
+    start_urls = links
 
     def parse(self, response):
   
