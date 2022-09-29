@@ -5,7 +5,7 @@ import json
 #get urls links
 
 dump_file_path = "Apple_start_urls.txt"
-json_file_path = "result.json"
+json_file_path = "cat_link.json"
 
 links = []
 f = open(dump_file_path, "w")
