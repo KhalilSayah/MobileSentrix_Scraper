@@ -20,3 +20,16 @@ tag.css('a::text').getall()
 response.css('img.no-sirv-lazy-load::attr(src)').extract()
 bar = response.css('div.MagicToolboxSelectorsContainer')
 bar.css('a::attr(href)').getall()
+
+
+
+Commande 
+// Start from Ubunto image
+ // setup scrapy 
+ // robot.txt OBEY 
+ //Lunch Apple Spider --> cat_link.json
+ //Lunch Product Spider --> product.json
+ //Lunch Product detail --> Product_details.json
+
+ Holding missing data "try and catch "
+

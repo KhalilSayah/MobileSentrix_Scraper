@@ -1,6 +1,8 @@
 import scrapy
 import json
 
+from ..items import MobilesentrixItem
+
 #Get links of product list
 json_file_path = "product.json"
 
@@ -16,9 +18,13 @@ for i in range(len(data)):
 
 class product_detail (scrapy.Spider):
     name = "product_detail"
-    start_urls = links
+    #start_urls = links
+
+    start_urls = ['https://www.mobilesentrix.ca/power-ic-chip-for-notebooks-macbooks-cd3210a0-qfn-20pin']
 
     def parse(self, response):
+
+        items = MobilesentrixItem()
   
         name = response.css('div.product-name')
         p_name = name.css('h1::text').get()
@@ -43,14 +49,25 @@ class product_detail (scrapy.Spider):
 
         p_image = response.css('img.no-sirv-lazy-load::attr(src)').extract()
 
-        yield{
-                
-                'NAME' : p_name,
-                'SKU' : p_sku,
-                'PRICE' : p_price,
-                'TAGS' : p_tags,
-                'DESCRIPTION' : p_desc,
-                'IMAGE' : p_image,
-                'OTHER IMAGES' : p_photos
+        items["NAME"]= p_name
+        items["SKU"] = p_sku
+        items["PRICE"] = p_price
+        items["TAGS"] = p_tags
+        items["DESCRIPTION"] = p_desc
+        items["IMAGE"] = p_image
+        items["OTHER_IMAGES"] = p_photos
 
-            }
+        yield items
+
+
+        #yield{
+                
+                #'NAME' : p_name,
+                #'SKU' : p_sku,
+                #'PRICE' : p_price,
+                #'TAGS' : p_tags,
+                #'DESCRIPTION' : p_desc,
+                #'IMAGE' : p_image,
+                #OTHER IMAGES' : p_photos
+
+            #}
