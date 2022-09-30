@@ -1,0 +1,71 @@
+[
+    {
+        "Microsoft": [
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-series-x",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-series-s",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-one-x",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-one-s",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-one",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-360-e",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-360-s",
+            "https://www.mobilesentrix.ca/game-console-parts/microsoft/xbox-360"
+        ],
+        "Sony": [
+            "https://www.mobilesentrix.ca/game-console-parts/sony/playstation-5-ps5",
+            "https://www.mobilesentrix.ca/game-console-parts/sony/playstation-ps4-pro",
+            "https://www.mobilesentrix.ca/game-console-parts/sony/playstation-ps4-slim",
+            "https://www.mobilesentrix.ca/game-console-parts/sony/playstation-4",
+            "https://www.mobilesentrix.ca/game-console-parts/sony/playstation-3-ps3"
+        ],
+        "Nitendo and Oculus": [
+            "https://www.mobilesentrix.ca/game-console-parts/nintendo/switch-oled",
+            "https://www.mobilesentrix.ca/game-console-parts/nintendo/switch-lite",
+            "https://www.mobilesentrix.ca/game-console-parts/nintendo/switch",
+            "https://www.mobilesentrix.ca/game-console-parts/nintendo/wii-u",
+            "https://www.mobilesentrix.ca/game-console-parts/nintendo/3ds",
+            "https://www.mobilesentrix.ca/game-console-parts/oculus/quest-2"
+        ],
+        "Boards Componenets": [
+            "Javascript:void();",
+            "javascript:void(0);",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-5",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4-pro",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4-slim",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-3",
+            "Javascript:void();",
+            "javascript:void(0);",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-series-x",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-series-s",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one-s",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one-x",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-360",
+            "Javascript:void();",
+            "javascript:void(0);",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/switch-lite",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/switch",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/wiiu",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-5",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4-pro",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4-slim",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-4",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/sony/playstation-3",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-series-x",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-series-s",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one-s",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one-x",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-one",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/microsoft/xbox-360",
+            "javascript:void();",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/switch-lite",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/switch",
+            "https://www.mobilesentrix.ca/game-console-parts/board-component/nintendo/wiiu"
+        ]
+    }
+]
