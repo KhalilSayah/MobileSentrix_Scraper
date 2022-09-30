@@ -22,7 +22,7 @@ Usage
 -----
 To scrap links of catégories use **catscraper spider**
 ```bash
-$ scrapy crawl applescraper -O result.json
+$ scrapy crawl catscraper -O result.json
 ```
 To scrap list of product on each categorie on result.json use **productscraper spider**
 ```bash
