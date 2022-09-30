@@ -1,4 +1,6 @@
-# MobileSentrix_Scraper
+# MobileSentrix_Scraper!
+[MobileSentrix_logo](https://user-images.githubusercontent.com/29178160/193275448-3a3d9e11-23c9-453a-a37d-54b61779b57e.png)
+
 MobileSentrix_Scraper is a command-line application written in Python that scrapes product data from MobileSentrix.ca. Use responsibly.
 
 Install
